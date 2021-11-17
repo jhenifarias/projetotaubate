@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taubaté</title>
+    
+    <!--Elementos básicos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!--link da fonte 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!--link da fonte 2-->
+
+
+  <!--Começou o CSS-->
+  <style type="text/css">
+
+      /*Engloba o documento*/
+        body {
+          font-family: 'Montserrat', sans-serif;
+          color: #333;
+          position:relative;
+          background-image: url(taubate.jpg);
+          /*background-repeat:no-repeat; --> optei não usar por questões estéticas*/
+          background-size: contain;
+          align-items: center;
+          justify-content: center;
+          height: 150px;         
+          }
+    
+      
+      /*titulo, informações e imagens*/
+        .cabecalho {
+          color: rgb(255, 255, 255);
+          text-align: center;
+          font-family: 'Roboto', sans-serif;
+          background-color: #244674b6;
+          position: relative;
+          float: center;        
+          height: 60px;
+          padding: 20px;
+        }
+       
+        
+      /* titulo ("Taubaté") */
+        .titulo {
+          text-transform: uppercase;
+          font-size: 25px;
+          text-align: center;
+          margin: -10px;          
+        }
+
+      /* resumo do título (Sobre Taubaté) */
+        .resumo {
+          font-family: 'Roboto', sans-serif;
+          font-size: 20px;
+          color: #ffffff;    
+        }
+
+
+      /*video*/
+        .conteudo { 
+          text-align: center;
+        }
+
+
+      /* titulo das curiosidades */
+        .informacoes {
+          
+          text-align: center;
+          color: #ffffff;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 200px;
+          background-color:  #244674;
+          border-radius: 30px;   
+          padding: 19px;
+          font-size: 20px;
+
+        }
+
+
+      /* conteúdo das curiosidades (a lista) */
+        .lista {
+          color: #ffffff;
+          text-align: center;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 200px;
+          list-style-type: none;
+          background-color: #244674b6;         
+          margin-left: -35px;
+          padding: 5px;
+          font-size: 16px;
+         
+        }
+
+
+      /* cartões informativos (geral) */
+        .cartao {
+          float: left;
+          background-color: #244674;
+          color: white;
+          border-radius: 25px;
+          width: 105px;
+          margin: 10px;
+          height: 280px;
+          padding: 130px;
+          margin-left: 50px;
+        }
+
+
+      /* informações do cartão (titulo, descrição e botão) */
+        .cartao__corpo {
+          font-size: 14px;
+          margin: 150px 0px 0px -105px;          
+         }
+
+
+
+      /* foto dos cartões */
+        .cartao__icone {
+          float: left;
+          width: 325px;
+          margin: -110px;
+          border-radius: 25px;
+        }
+
+
+
+      /* título dos cartões */
+        .cartao__titulo {
+            font-size: 28px;
+            width: 305px;
+            float: center;
+            margin: 0 0 10px;     
+        }
+
+
+
+      /* descrição dos cartões */
+        .cartao__descricao {
+            float: left;
+            width: 310px;
+            margin: 0;
+        }
+
+
+      /* redes sociais */
+        .redes {                 
+          text-align:unset;
+          text-align: center;
+           padding: 20px;
+;                  
+        }
+          
+    </style>
+   </head>
+
+
+
+<!--HTML-->
+  <!--Bloco 1 (Título, em cima)-->
+<body>
+    <header class="cabecalho" >
+      <h1 class="titulo">Taubaté</h1>
+        <main class="resumo">
+          <p>Com 381 anos, temos 317.915 habitantes e 625.003 km² e
+              somos a <strong>capital nacional da literatura infantil</strong>.
+              Já achou que eu falaria da Grávida né? Calma aí!
+          </p>
+        </main>
+    </header>
+
+
+    <!--Bloco 2 (Vídeo, no meio)-->
+  <div class="conteudo">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/xpSYVi50910" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+    </iframe>
+
+
+    <!--Bloco 3 (Depois do vídeo)-->
+    <h2 class="informacoes">Curiosidades Geográficas</h2>
+    <!--Informações geográficas--> 
+      <ul>
+        <li class="lista">Somos a segunda maior cidade do vale do paraíba.</li>
+        <li class="lista">Ficamos a 130 km de São Paulo capital.</li>
+        <li class="lista">Não temos praia, mas a cidade litorânea mais próxima é Ubatuba, com somente 90 km de distância.</li>
+        <li class="lista">Campos do Jordão e Aparecida do Norte fica a 40 km de distância.</li>
+      </ul>
+
+    <h2 class="informacoes">Curiosidades Históricas</h2>
+    <!--Informações históricas-->
+      <ul>
+        <li class="lista">Monteiro Lobato, Fêgo Camargo, Hebe Camargo, Cid Moreira nasceram aqui.</li>
+        <li class="lista">Temos um Sítio do Pica Pau Amarelo.</li>
+        <li class="lista">Temos um Cristo Redentor.</li>
+      </ul>
+
+
+    <h2 class="informacoes">Curiosidades Engraçadas</h2>
+    <!--informações engraçadas-->
+      <ul>     
+        <li class="lista">Aqui os motoristas não dão seta.</li>
+        <li class="lista">Não somos falsos como pensam.</li>
+        <li class="lista">A maioria da população não faz pakour.</li>
+        <li class="lista">Temos uma Xuxa.</li>
+        <li class="lista">Ah, e finalmente a Grávida... Bom, não podemos falar dela, senão ela nos processa.</li>        
+      </ul>
+    
+  <!--Redes Sociais-->
+    <div class="redes">
+      <a href="https://www.instagram.com/museuhistoricopinacotecatte"><img src="instagram.png"></a>
+      <a href="https://www.youtube.com/embed/xpSYVi50910"><img src="youtube.png"></a>
+    </div>
+
+
+  <!--Blocos adicionais, no fim na página-->
+      <div class="cartao">
+      <img class="cartao__icone" src="gravida.jpg" alt="">
+      <section class="cartao__corpo">
+          <h1 class="cartao__titulo">A Grávida</h1>
+          <p class="cartao__descricao">Grávida de Taubaté ou falsa grávida de Taubaté ficou conhecida
+            em 2012 após seu caso de gravidez de quadrigêmeos, ter sido revelado como falso.
+          </p>          
+      </section>
+    </div>
+
+    <div class="cartao">
+      <img class="cartao__icone" src="parkour.jpg" alt="">
+      <section class="cartao__corpo">
+          <a><h1 class="cartao__titulo">Parkour</h1>
+          <p class="cartao__descricao"> O Parkour de Taubaté virou meme após internautas criticarem as manobras feitas pelas praticantes na 
+            arquibancada na Avenida do Povo, no centro da cidade, e que passava longe de ser um verdadeiro parkour. Recomendo que vejam o vídeo para saber mais.
+          </p>          
+      </section>
+    </div>
+
+    <div class="cartao">
+      <img class="cartao__icone" src="xuxa.jpg" alt="">
+      <section class="cartao__corpo">
+          <a><h1 class="cartao__titulo">Xuxa</h1>
+          <p class="cartao__descricao"> Ao contrário do que pensam, ela não é falsa. Hoje é uma sósia da Xuxa e foi até aprovada pela artista.
+            Moradora de Taubaté, faz shows em bares e tem o apelido de Xuxa de Taubaté. Antes de ser descoberta, 
+            Cíntia trabalhava em uma fábrica de eletrônicos e cuidava da casa e da família.
+          </p>          
+      </section>
+    </div>
+
+    <div class="cartao">
+      <img class="cartao__icone" src="santa.jpg" alt="">
+      <section class="cartao__corpo">
+          <a><h1 class="cartao__titulo">Igreja Santa Terezinha</h1>
+          <p class="cartao__descricao"> É uma igreja famosa por sua beleza, fica em uma praça (Praça Santa Terezinha) linda!
+            Praça onde o pessoal faz exercício físico mas come um lanche depois.
+            Ah, os melhores lanches ficam lá.
+          </p>
+      </section>
+    </div>
+
+    <div class="cartao">
+      <img class="cartao__icone" src="monteirolobato.jpg" alt="">
+      <section class="cartao__corpo">
+          <h1 class="cartao__titulo">Monteiro Lobato</h1>
+          <p class="cartao__descricao">José Bento Renato Monteiro Lobato foi um dos mais influentes
+            escritores brasileiros do século XX. Foi o “precursor” da literatura infantil brasileira
+            e ficou popularmente conhecido pelo conjunto educativo, bem como divertido, de sua obra de livros
+            infantis, o que seria aproximadamente metade da sua produção literária.</p>
+      </section>
+    </div>
+
+    <div class="cartao">
+      <img class="cartao__icone" src="amacio.jpg" alt="">
+      <section class="cartao__corpo">
+          <a><h1 class="cartao__titulo">Amácio Mazzaroppi</h1>
+          <p class="cartao__descricao">Nascido na Capital paulista, Amacio Mazzaropi adotou a cidade de Taubaté.
+            Na fazenda onde na década de 70, ele construiu os estúdios de cinema PAM Filmes,
+            atualmente funciona o Hotel Fazenda Mazzaropi, que mantém o Museu que preserva a memória de sua obra.
+          </p>          
+      </section>
+    </div>
+
+    <div class="cartao">
+      <img class="cartao__icone" src="domepaminondas.jpg" alt="">
+      <section class="cartao__corpo">
+          <a><h1 class="cartao__titulo">Praça Dom Epaminondas</h1>
+          <p class="cartao__descricao"> Antigamente seu nome era Largo da Matriz, essa fotografia foi tirada provavelmente em 01 de janeiro de 1922 logo após a cerimônia 
+            de inuguração do monumento em homenangem a Dom José Pereira da Silva Barros. Nessa praça fica a igreja Catedral São Francisco das Chagas, a mais antiga da cidade.
+          </p>
+          
+      </section>
+    </div>
+
+    <div class="cartao">
+      <img class="cartao__icone" src="sitio.jpg" alt="">
+      <section class="cartao__corpo">
+          <a><h1 class="cartao__titulo">Sítio do Pica Pau Amarelo</h1>
+          <p class="cartao__descricao"> O Museu Monteiro Lobato é localizado no Sítio do Picapau Amarelo.
+            Foi criado em 1958, 
+            e é patrimônio histórico estadual e nacional desde 1962.
+          </p>          
+      </section>
+    </div>
+
+    <div class="cartao">
+      <img class="cartao__icone" src="bicadobugre.jpg" alt="">
+      <section class="cartao__corpo">
+          <a><h1 class="cartao__titulo">Bica do Bugre</h1>
+          <p class="cartao__descricao"> A Bica do Bugre tem uma lenda, nessa lenda é dito que quem bebe dessa água sempre retornará a Taubaté: 
+            “O viajante que beber
+            da Bica do Bugre retornará à Taba-etê, mais cedo ou mais tarde. As luas passarão, as noites desfilarão
+            diante dos deus, mas um dia, de chuva ou sol, o viajante retornará.
+            A Bica do Bugre será, para sempre, o lugar do eterno retorno”.
+          </p>          
+      </section>
+    </div>
+
+
+
+  
